@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:foregroundGravity="clip_vertical"
+    tools:context=".dashboard">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="389dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:translationX="-5dp"
+        android:translationY="-50dp"
+        app:cardBackgroundColor="#FFD08A"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102">
+
+        <SearchView
+
+            android:id="@+id/searchView"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="#FFD08A"
+            android:clickable="true"
+            android:inputType="text"
+            android:translationX="-20dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/ic_group"
+        android:translationX="125dp"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:foreground="@drawable/ic_food"
+        android:onClick="recipe"
+        android:translationX="10dp"
+        app:backgroundTint="#F6F1F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:foreground="@drawable/ic_account"
+        android:onClick="recipe1"
+        android:translationX="230dp"
+        app:backgroundTint="#F8F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="410dp"
+        android:layout_height="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="272dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="84dp"
+                android:text="Our Recommendations"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="10dp"
+                android:translationY="-50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.115"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="147dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="252dp"
+                android:layout_marginBottom="1dp"
+                android:text="Indian"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="-40dp"
+                android:translationY="130dp"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="140dp"
+                android:layout_height="29dp"
+                android:text="Chinese"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="10dp"
+                android:translationY="280dp"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.044"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+                app:layout_constraintVertical_bias="0.66" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:translationY="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.554"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/i1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/biryani1"
+                        android:src="@drawable/ind3"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/i2"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/rajmachawal1"
+                        android:src="@drawable/ind1"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/i3"
+                        android:layout_width="91dp"
+                        android:layout_height="158dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/dahikebab1"
+                        android:src="@drawable/ind2"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/i4"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/pavbhaji1"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/i15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/paneer_tikka1"
+                        android:src="@drawable/ind3"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView4"
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:layout_marginBottom="20dp"
+                android:translationY="-250dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rec1"
+                        android:layout_width="91dp"
+                        android:layout_height="143dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="Paneer Momos"
+                        android:foreground="@drawable/momos1"
+                        android:foregroundGravity="fill"
+                        android:onClick="start"
+                        android:src="@drawable/rec4"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/rec99"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="Pizza"
+                        android:foreground="@drawable/pizza99"
+                        android:foregroundGravity="fill"
+                        android:onClick="start"
+                        android:src="@drawable/rec4"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/rec2"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="Tea"
+                        android:foreground="@drawable/t1"
+                        android:foregroundGravity="fill"
+                        android:onClick="start"
+                        android:src="@drawable/photo_2021_11_09_00_13_23__1_"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/rec4"
+                        android:layout_width="91dp"
+                        android:layout_height="148dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/photo_2021_11_09_00_13_23__1_"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/rec2"
+                        tools:ignore="DuplicateIds"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/rec3"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/samosa1"
+                        android:longClickable="true"
+                        android:outlineProvider="background"
+
+                        android:verticalScrollbarPosition="defaultPosition"></ImageView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView6"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+                app:layout_constraintVertical_bias="0.439"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c1"
+                        android:layout_width="91dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/springroll1"
+                        android:src="@drawable/chi1"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c2"
+                        android:layout_width="91dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="Paneer Momos"
+                        android:onClick="start"
+                        android:foreground="@drawable/momos1"
+                        android:src="@drawable/chinese1234"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c3"
+                        android:layout_width="91dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/noodles1"
+                        android:src="@drawable/chi2"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c4"
+                        android:layout_width="108dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/manchurian1"
+                        android:src="@drawable/chi2"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView3"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:layout_marginTop="12dp"
+                android:translationY="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+                app:layout_constraintVertical_bias="0.439"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c7"
+                        android:layout_width="91dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/a1"
+                        android:src="@drawable/chi1"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c8"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/a2"
+                        android:src="@drawable/chinese1234"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c9"
+                        android:layout_width="91dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/a3"
+                        android:src="@drawable/chi2"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c10"
+                        android:layout_width="108dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/a4"
+                        android:src="@drawable/chi2"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="147dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="252dp"
+                android:layout_marginBottom="1dp"
+                android:text="Italian"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="-40dp"
+                android:translationY="60dp"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="147dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="252dp"
+                android:layout_marginBottom="1dp"
+                android:text="American"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="-40dp"
+                android:translationY="-170dp"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView7"
+                android:layout_width="wrap_content"
+                android:layout_height="123dp"
+                android:layout_marginTop="12dp"
+                android:translationY="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+                app:layout_constraintVertical_bias="0.439"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c11"
+                        android:layout_width="91dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/i"
+                        android:src="@drawable/chi1"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c12"
+                        android:layout_width="91dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/i1"
+                        android:src="@drawable/chi2"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c13"
+                        android:layout_width="91dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/i2"
+                        android:src="@drawable/chi2"></ImageView>
+
+                    <ImageView
+                        android:id="@+id/c14"
+                        android:layout_width="108dp"
+                        android:layout_height="124dp"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription="TODO"
+                        android:foreground="@drawable/i3"
+                        android:src="@drawable/chi2"></ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="269dp"
+        android:layout_height="36dp"
+        android:text="DashBoard"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_______________________________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+</androidx.constraintlayout.widget.ConstraintLayout>

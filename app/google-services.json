@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603038791679",
+    "project_id": "dailybinge-1549d",
+    "storage_bucket": "dailybinge-1549d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603038791679:android:6096afe1415761c77519ca",
+        "android_client_info": {
+          "package_name": "com.example.dailybinge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603038791679-3u5vtsg95pmkhi6f8bm2lq534hrat82m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIcCJdwNh3VQEuXxYnkJvXZm2m4_jR5cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603038791679-3u5vtsg95pmkhi6f8bm2lq534hrat82m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

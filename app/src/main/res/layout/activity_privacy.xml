@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/whitebg1"
+    android:fillViewport="true"
+    android:padding="10dp"
+    tools:context=".shopping_list">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Privacy Notice"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="330dp"
+            android:layout_height="112dp"
+            android:layout_weight="1"
+            android:text="The Daily Binge Privacy Policy is available here. This Privacy Policy describes how we collect and use personal data (as defined above) in connection with your use of our Services."
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="320dp"
+            android:layout_height="111dp"
+            android:layout_weight="1"
+            android:text="Who we are:
+When we mention “DailyBinge”, “we”, “us” or “our” in this Privacy Policy, we mean Daily Binge responsible for processing user data.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="About the privacy notice"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="320dp"
+            android:layout_height="211dp"
+            android:layout_weight="1"
+            android:text="When you use our mobile apps that connect to this Privacy Policy (collectively, the Services) or otherwise engage with us, our Privacy policy outlines how Daily Binge uses, gathers, and discloses data about users and processes information that identifies them. The collecting of your personal data is governed by our privacy policy.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Changes to this Privacy Policy"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="320dp"
+            android:layout_height="194dp"
+            android:layout_weight="1"
+            android:text="Our app will make changes in this Privacy Policy in the future, and when we do it, we will update the date at the top of the policy and, in some cases, we will let you know about changes through our homepage, or through email or other correspondence. Users are requested to check from time to time for the most up-to-date information on our privacy practices."
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="How to contact us"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="320dp"
+            android:layout_height="173dp"
+            android:layout_weight="1"
+            android:text="If users have any queries or concerns about the information in this Privacy Policy,  handling of user personal data and rights regarding such use, or wish to exercise your rights under the law
+They can contact us through the following details
+Daily Binge,
+Bennett University, Noida
+dailybinge2021@gmail.com
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="320dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:text="What type of User data do we collect and how "
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Personal data you provide to us"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="320dp"
+            android:layout_height="122dp"
+            android:layout_weight="1"
+            android:text="Account details: When users sign up for the Daily Binge account (Account), we collect the information about your name, email address, username, password, phone number, and gender.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="320dp"
+            android:layout_height="204dp"
+            android:layout_weight="1"
+            android:text="Additional account information: You can provide additional information in your account (for example, your personal description) in the community area. This data is publicly visible to all others using this app. If you do not want to share this information with us or anyone else, please do not include the information as part of your account.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Profile data"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="320dp"
+            android:layout_height="311dp"
+            android:layout_weight="1"
+            android:text="We will collect some data you provide as part of your Account sign-up, the information you provide in connection with transactions or orders made by you, and your interests, preferences, comments, and survey responses if you sign up for an Account. Data we collect on what sorts of material you've interacted with, how long you've interacted with them, how often you've interacted with them, and the nature of your interaction with the content is used to infer your interests and preferences. Except when required by law, to protect our rights, or to protect the rights of our users, we do not disclose email addresses to other users.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Retaining your personal data"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="320dp"
+            android:layout_height="71dp"
+            android:layout_weight="1"
+            android:text="We keep the personal data of users for as long as we need it for the purposes for which we collected."
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="320dp"
+            android:layout_height="107dp"
+            android:layout_weight="1"
+            android:text="When we say how much time we need to keep your data, we consider type, and sensitivity of personal data, potential risk of harm from unauthorized use or disclosure, why we need it, and any legal requirements."
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="320dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            android:text="We may use User personal data for research, survey, or statistical purposes.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Terms and conditions"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="320dp"
+            android:layout_height="181dp"
+            android:layout_weight="1"
+            android:text="Users agree to the Terms of Use as well as all other rules, policies that we may post on the application from time to time in the future, Each of which is included by reference and may be modified without any notice.
+Additional terms and conditions may apply to certain Services, such as the community area.
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Registration"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="320dp"
+            android:layout_height="131dp"
+            android:layout_weight="1"
+            android:text="To use Daily Binge to its fullest, users must create an account on this application.
+Users must provide complete information while registering for an Account, and they must keep their Account information Private to themselves. It is not permitted:
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="320dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:text="(i) use a username that is similar to someone else's name in order to impersonate that person;"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="320dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:text="(ii) select a username that is susceptible to the rights of someone else without your permission;
+"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="320dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            android:text="(iii) To use a username that is offensive or obscene. Users are completely responsible for all the activity that occurs on their personal Account"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="320dp"
+            android:layout_height="215dp"
+            android:layout_weight="1"
+            android:text=" Our app cannot be used with any other account credentials. Any change in your eligibility to use the Service (including any licence change or revocation by state authorities), security breach, or unauthorized use of your Account must be reported to us immediately. Sharing, distributing, or posting your account's login information is not recommended. If you request it, your account will be deactivated"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Content"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="320dp"
+            android:layout_height="240dp"
+            android:layout_weight="1"
+            android:text="Users represent that all details that they provide are correct and complete in compliance with all applicable laws, rules, and regulations. Users acknowledge that We have access to all information, including User Content, through the Service at their own risk and Users will be responsible for any damage or loss to themselves as a result of their own conduct. We do not guarantee that any Content that Users access through the Service will continue to be accurate or available. "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="320dp"
+            android:layout_height="166dp"
+            android:layout_weight="1"
+            android:text="User License distribution, modification, or storage of any Content for any other purpose is prohibited without our prior written permission. Users are not allowed to sell licenses, or otherwise exploit any Content for commercial use or in any other way that violates the rights of any third party.
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="320dp"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:text="Rules of Conduct"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="320dp"
+            android:layout_height="197dp"
+            android:layout_weight="1"
+            android:text="User agrees to not to use the Services for any purpose that is against the User Agreement as a condition of use. Users are completely responsible for all actions while using the Services. You must not either
+(a) take any action or
+(b) upload, download, submit, or otherwise enable distribution of any Content on or through the Service, including User Content, that:
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="320dp"
+            android:layout_height="76dp"
+            android:layout_weight="1"
+            android:text="(i) Go against any patent, trademark, copyright, right of publicity of any other person or entity"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="320dp"
+            android:layout_height="103dp"
+            android:layout_weight="1"
+            android:text="(ii) Is deceptive, fraudulent, invasive of another's privacy, tortious, obscene, vulgar, offensive, profane, contains, or objectionable in our sole power of making choice at their own will;
+"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="320dp"
+            android:layout_height="59dp"
+            android:layout_weight="1"
+            android:text="(iii) Unlicensed advertising or bulk e-mail are all examples of spamming."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="320dp"
+            android:layout_height="189dp"
+            android:layout_weight="1"
+            android:text="(iv) Contains software issues or other computer virus, codes, or programs that are intended to damage, terminate, limit, or interfere with the proper operation of any software, hardware, or telecommunications equipment, or to damage or gain unauthorized access to any system, data, password, or other information belonging to us or a third party;"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="(v) Impersonates anyone or anything, including our employees or representatives"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="320dp"
+            android:layout_height="211dp"
+            android:layout_weight="1"
+            android:text="(vi) Without their prior consent, includes anyone's personal data (as defined in our Privacy Policy), identity documents, or other sensitive information."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="10dp"
+            android:translationY="40dp" />
+    </LinearLayout>
+</ScrollView>

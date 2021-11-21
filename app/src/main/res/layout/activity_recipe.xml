@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greybg"
+    tools:context=".recipe">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="320dp"
+        android:layout_height="414dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="200dp"
+        android:elevation="20dp"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="#F95A00"
+        android:textColorHint="#F95A00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="385dp"
+        android:translationY="200dp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <ImageView
+        android:id="@+id/bgcircle"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/oragngeellipse"
+        android:translationX="230dp"
+        android:translationY="-130dp" />
+
+    <ImageView
+        android:id="@+id/bgcircle1"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="-100dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/greyellipse"
+        android:translationX="75dp"
+        android:translationY="-115dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="@color/button_bg_timer"
+        android:onClick="start"
+        android:text="Start"
+        android:textColor="#F95A00"
+        android:textColorHint="#F95A00"
+        android:translationX="-270dp"
+        android:translationY="70dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="@color/button_bg_timer"
+        android:onClick="next"
+        android:text="Next"
+        android:textColor="#F95A00"
+        android:textColorHint="#F95A00"
+        android:translationX="-305dp"
+        android:translationY="70dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="107dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="225dp"
+        android:elevation="20dp"
+        android:text="0:0"
+        android:textColor="#F95A00"
+        android:textColorHint="#F95A00"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:translationX="-225dp"
+        android:translationY="-60dp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="135dp" />
+</LinearLayout>

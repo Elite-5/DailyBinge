@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dailybinge">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DailyBinge">
+        <activity
+            android:name=".history_event"
+            android:exported="true" />
+        <activity
+            android:name=".meal_planner"
+            android:exported="true" />
+        <activity
+            android:name=".community"
+            android:exported="true"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".dishfront"
+            android:exported="true"
+            android:parentActivityName=".MyrecipesActivity" />
+        <activity
+            android:name=".final_dish"
+            android:exported="true" />
+        <activity
+            android:name=".new_dish"
+            android:exported="true" />
+        <activity
+            android:name=".privacy"
+            android:exported="true"
+            android:parentActivityName=".dsettings" />
+        <activity
+            android:name=".shopping_list"
+            android:exported="true"
+            android:label="Shopping List" />
+        <activity
+            android:name=".contact_us"
+            android:exported="true"
+            android:parentActivityName=".dsettings" />
+        <activity
+            android:name=".profile_edit"
+            android:exported="true"
+            android:parentActivityName=".AccountActivity" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true"
+            android:parentActivityName=".dsettings" />
+        <activity
+            android:name=".dsettings"
+            android:exported="false"
+            android:parentActivityName=".AccountActivity" />
+        <activity
+            android:name=".front"
+            android:exported="false" />
+        <activity
+            android:name=".recipe"
+            android:exported="true"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="true"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="true"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".MyrecipesActivity"
+            android:exported="true"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".trivia3"
+            android:exported="true"
+            android:parentActivityName=".trivia2" />
+        <activity
+            android:name=".trivia2"
+            android:exported="true"
+            android:parentActivityName=".trivia1" />
+        <activity
+            android:name=".trivia1"
+            android:exported="true"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".new_user"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
