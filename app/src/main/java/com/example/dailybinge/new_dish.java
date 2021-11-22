@@ -40,6 +40,14 @@ public class new_dish extends AppCompatActivity {
         String time=tim.getText().toString();
         i=new Intent(this,new_dish.class);
         i.putExtra("email",email);
+        if(time.compareTo("")==0)
+        {
+            time="0";
+        }
+        if(text.compareTo("")==0)
+        {
+            text="  ";
+        }
         i.putExtra("step",prev+"##stepdef##"+text+"##T##"+time);
         startActivity(i);
     }

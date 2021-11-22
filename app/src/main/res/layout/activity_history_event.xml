@@ -13,15 +13,16 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <Button
             android:id="@+id/button24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/black"
-            android:text="Return to Dashboard"
+            android:backgroundTint="#FF9800"
             android:onClick="backtodash"
-            />
+            android:text="Return to Dashboard"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/textView12"
             android:layout_width="508dp"

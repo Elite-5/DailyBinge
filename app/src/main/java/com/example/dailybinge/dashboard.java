@@ -30,11 +30,7 @@ public class dashboard extends AppCompatActivity {
         i.putExtra("email",x);
         startActivity(i);
     }
-    public void searc(View v){
-//        Toast.makeText(this, "Search", Toast.LENGTH_SHORT).show();
-//        Intent i=new Intent(this,finding.class);
-//        startActivity(i);
-    }
+
 
     public void recipe1(View v1){
         Toast.makeText(this, "Account", Toast.LENGTH_SHORT).show();
@@ -59,6 +55,14 @@ public class dashboard extends AppCompatActivity {
         i=new Intent(this,recipe.class);
         i.putExtra("count","0");
         i.putExtra("dish",v.getContentDescription());
+        i.putExtra("email",x);
+        startActivity(i);
+    }
+    public void searc(View v){
+        Toast.makeText(this, "Search", Toast.LENGTH_SHORT).show();
+        Intent i=getIntent();
+        String x=i.getStringExtra("email");
+        i=new Intent(this,finding.class);
         i.putExtra("email",x);
         startActivity(i);
     }

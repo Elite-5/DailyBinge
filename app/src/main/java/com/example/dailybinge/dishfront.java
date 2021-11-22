@@ -26,7 +26,7 @@ public class dishfront extends AppCompatActivity {
         String email=i.getStringExtra("email");
         i=new Intent(this,new_dish.class);
         i.putExtra("email",email);
-        i.putExtra("step",title+"##titleline##"+ingre);
+        i.putExtra("step",title+"##titleline##"+ingre+"##T##0");
         startActivity(i);
     }
 }

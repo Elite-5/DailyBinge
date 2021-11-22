@@ -37,4 +37,14 @@ public class MyrecipesActivity extends AppCompatActivity {
         i.putExtra("email",email);
         startActivity(i);
     }
+    public void start(View v){
+        Toast.makeText(this, "Timer", Toast.LENGTH_SHORT).show();
+        Intent i=getIntent() ;
+        String x=i.getStringExtra("email");
+        i=new Intent(this,recipe.class);
+        i.putExtra("count","0");
+        i.putExtra("dish",v.getContentDescription());
+        i.putExtra("email",x);
+        startActivity(i);
+    }
 }

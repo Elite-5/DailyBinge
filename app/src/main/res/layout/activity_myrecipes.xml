@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:onClick="start"
     tools:context=".dashboard">
 
 
@@ -29,27 +29,34 @@
 
       <ImageView
           android:id="@+id/rec1"
-          android:layout_width="122dp"
-          android:layout_height="124dp"
+          android:layout_width="123dp"
+          android:layout_height="189dp"
           android:layout_marginRight="20dp"
-          android:contentDescription="TODO"
-          android:src="@drawable/rec4"></ImageView>
+          android:contentDescription="Paneer Momos"
+          android:onClick="start"
+          android:src="@drawable/momos1"
+          android:translationY="-15dp"
+          ></ImageView>
 
       <ImageView
           android:id="@+id/rec2"
           android:layout_width="122dp"
-          android:layout_height="124dp"
+          android:layout_height="142dp"
           android:layout_marginRight="20dp"
-          android:contentDescription="TODO"
-          android:src="@drawable/rec3"></ImageView>
+          android:contentDescription="Pizza"
+          android:onClick="start"
+          android:src="@drawable/pizza99"
+          ></ImageView>
 
       <ImageView
           android:id="@+id/rec4"
           android:layout_width="122dp"
-          android:layout_height="124dp"
+          android:layout_height="143dp"
           android:layout_marginRight="20dp"
-          android:contentDescription="TODO"
-          android:src="@drawable/rec2"
+          android:contentDescription="Tea"
+          android:onClick="start"
+          android:src="@drawable/t1"
+          android:translationY="-10dp"
           tools:ignore="DuplicateIds"></ImageView>
 
       <ImageView
@@ -64,7 +71,7 @@
 
   <androidx.cardview.widget.CardView
       android:id="@+id/cardView"
-      android:layout_width="320dp"
+      android:layout_width="360dp"
       android:layout_height="40dp"
       android:layout_margin="10dp"
       android:translationX="10dp"
@@ -79,7 +86,7 @@
     <SearchView
 
         android:id="@+id/searchView"
-        android:layout_width="300dp"
+        android:layout_width="340dp"
         android:layout_height="match_parent"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
@@ -92,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" >
+        app:layout_constraintVertical_bias="0.4">
 
       <Button
           android:id="@+id/button20"
@@ -148,10 +155,10 @@
       app:backgroundTint="#00FFFFFF"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.1"
+      app:layout_constraintHorizontal_bias="0.186"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.976"
+      app:layout_constraintVertical_bias="0.974"
       tools:ignore="SpeakableTextPresentCheck" />
 
   <Button
@@ -161,15 +168,15 @@
       android:background="#00FFFFFF"
       android:backgroundTint="#00FFFFFF"
       android:foreground="@drawable/ic_food"
-      android:translationX="10dp"
       android:onClick="recipe"
+      android:translationX="10dp"
       app:backgroundTint="#F6F1F1"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.071"
+      app:layout_constraintHorizontal_bias="0.14"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.976"
+      app:layout_constraintVertical_bias="0.974"
       tools:ignore="SpeakableTextPresentCheck" />
 
   <Button
@@ -178,16 +185,16 @@
       android:layout_height="44dp"
       android:background="#00FFFFFF"
       android:backgroundTint="#00FFFFFF"
-      android:onClick="recipe1"
       android:foreground="@drawable/ic_account"
+      android:onClick="recipe1"
       android:translationX="230dp"
       app:backgroundTint="#F8F5F5"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.16"
+      app:layout_constraintHorizontal_bias="0.211"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.976"
+      app:layout_constraintVertical_bias="0.975"
       tools:ignore="OnClick, SpeakableTextPresentCheck" />
 
   <HorizontalScrollView
@@ -211,27 +218,33 @@
       <ImageView
           android:id="@+id/i1"
           android:layout_width="122dp"
-          android:layout_height="124dp"
+          android:layout_height="194dp"
           android:layout_marginRight="20dp"
-          android:contentDescription="TODO"
+          android:contentDescription="Paneer Momos"
           android:maxHeight="500dp"
-          android:src="@drawable/ind3"></ImageView>
+          android:onClick="start"
+          android:src="@drawable/momos1"
+          android:translationY="-15dp"
+          ></ImageView>
 
       <ImageView
           android:id="@+id/i2"
           android:layout_width="122dp"
-          android:layout_height="124dp"
+          android:layout_height="142dp"
           android:layout_marginRight="20dp"
-          android:contentDescription="TODO"
-          android:src="@drawable/ind1"></ImageView>
+          android:contentDescription="Pizza"
+          android:onClick="start"
+          android:src="@drawable/pizza99"></ImageView>
 
       <ImageView
           android:id="@+id/i3"
           android:layout_width="122dp"
-          android:layout_height="124dp"
+          android:layout_height="143dp"
           android:layout_marginRight="20dp"
-          android:contentDescription="TODO"
-          android:src="@drawable/ind2"></ImageView>
+          android:contentDescription="Tea"
+          android:onClick="start"
+          android:src="@drawable/t1"
+          android:translationY="-10dp"></ImageView>
 
       <ImageView
           android:id="@+id/i4"
@@ -256,6 +269,19 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+      app:layout_constraintVertical_bias="0.759"
       tools:ignore="OnClick" />
+
+  <TextView
+      android:id="@+id/textView41"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="_________________________________________________________________"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.83" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

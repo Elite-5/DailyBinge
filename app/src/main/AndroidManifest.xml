@@ -101,6 +101,10 @@
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".finding"
+            android:exported="true"
+            android:parentActivityName=".dashboard" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
